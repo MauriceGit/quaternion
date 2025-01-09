@@ -8,7 +8,9 @@ import (
 const Epsilon = 1e-5
 
 type Vec3D struct {
-	X, Y, Z float64
+	X float64 `json:"x"`
+	Y float64 `json:"y"`
+	Z float64 `json:"z"`
 }
 
 type Quaternion struct {
